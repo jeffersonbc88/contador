@@ -1,0 +1,95 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(155, 161, 161);
+}
+
+body h1 {
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contador {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.contagem {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contagem p {
+    font-size: 120px;
+}
+
+.botoes {
+    display: flex;
+    width: 500px;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    flex-grow: 1;
+}
+
+.botoes-add-um {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.botoes-add-rmv {
+    display: flex;
+    height: 100px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoes-zerar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+button {
+    width: 160px;
+    height: 100px;
+    background-color: rgb(196, 250, 194);
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0.8;
+}
+
+button span {
+    font-weight: initial;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.soma-um, .zera {
+    font-size: 26px;
+    line-height: 0.6;
+}
+
+.botoes-add-rmv button {
+    height: 45px;
+}
+
